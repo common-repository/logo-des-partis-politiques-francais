@@ -1,0 +1,43 @@
+a.lppf{
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+}
+a.lppf.small{
+	width:35px;
+	height:35px;
+}
+a.lppf.medium{
+	width:75px;
+	height:75px;
+}
+a.lppf.large{
+	width:125px;
+	height:125px;
+}
+
+a.lppf.full, a.lppf img{
+	max-width:100%;
+	max-height:100%;
+}
+a.lppf-disc{
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.logosppf-ban-item{
+    cursor:pointer;
+
+    display: inline-block;
+    margin:3px;
+    padding:2px 10px;
+
+    background: #FFF;
+    border-radius:5px;
+    border:#EEE 1px solid;
+}
+.logosppf-ban-item.banned{
+    color:#900;
+    text-decoration:line-through;
+    text-decoration-color: #F00;
+}
